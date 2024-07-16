@@ -1,0 +1,26 @@
+---- DESAFIO ----
+#Fazer um jogo do Pokemon com as funcionalidades:
+#1. Menu para escolha do que será feito
+#2. Batalha pokemon
+#3. Capturar pokemon
+#4. Ver pokemons e ver pokemon individual
+
+------------------------ Documentação - Pokemon Mechanics ------------------------
+------------------------ Por Luís Alarcon, 15/07/2024
+
+I. Introitus
+
+O programa é estruturado em 2 arquivos principais: 
+                        'pkm.py' - Para criar as mecãnicas de criação e manejo de
+                                   pokemons
+                        'game.py' - Para fazer o ciclo do jogo.
+
+P.S. - Havia uma arquivo que adicionaria rivais como Bianca, Sheren e etc mas foi descartado;
+        os rivais agora são tratados dentro de game.py
+        Outro arquivo deixado de lado foi 'pokemons.py' que criava pokemons como 
+        classes herdeiras da classe pokemon, deixando mais complexo os ataques e a adição dos 
+        tipos de pokemon
+
+II. Easter Egg
+
+        O Jogo contém um easter egg que adiciona o MissingNo à batalha caso o nome do jogador seja Luis Alarcon
